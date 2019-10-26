@@ -10,6 +10,31 @@ body {
     margin: auto;
     background-color: white;
 }
+
+#blog {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+.blog_content {
+/*    border: solid 3px black;*/
+    background-color: black;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+.blog_content:hover {
+    border: solid 3px darkorange;
+}
+.blog_text {
+    margin-left: 10px;
+    color: white;
+}
+
+
 .float_right {
     position: absolute;
     right: 0px;
@@ -23,7 +48,7 @@ body {
     margin-left: 10px;
 }
 .hide_on_resize {
-    display: inline;
+    display: none;
 }
 
 #logo {
@@ -47,6 +72,9 @@ header {
 }
 .nav_margin_left {
     margin-left: 100px;
+}
+.nav_margin_left_no_logo {
+    margin-left: 10px;
 }
 nav {
     float: left;
