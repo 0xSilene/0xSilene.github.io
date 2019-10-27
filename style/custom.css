@@ -1,3 +1,11 @@
+/*
+Red Color Scheme: #bf1e30
+
+
+
+*/
+
+
 * {
     box-sizing: border-box;
 }
@@ -11,34 +19,35 @@ body {
     background-color: white;
 }
 
-#blog {
+/* POSTS */
+#posts {
     display: flex;
     flex-direction: column-reverse;
     align-content: space-between;
     justify-content: space-around;
 }
-
-.blog_content {
-/*    border: solid 3px black;*/
+.post {
     background-color: black;
     margin-top: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 5px;
 }
-.blog_content:hover {
-    border: solid 3px darkorange;
+.post:hover {
+    outline: solid 3px #fb8749;
 }
-.blog_text {
+.post_text {
     margin-left: 10px;
     color: white;
 }
+/* End Of POSTS */
 
 
 .float_right {
     position: absolute;
     right: 0px;
     margin-top: 15px;
+    margin-right: 15px;
 }
 .icon {
     position: relative;
