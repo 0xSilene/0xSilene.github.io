@@ -27,8 +27,8 @@
             }
         </style>
     </head>
-    <body onresize="onResize();" onload="onResize();">
-        <header>
+    <body onresize="onResize();" onload="onResize(); ifmobile();">
+        <header id="hide_on_mobile">
             <img id="logo" src="imgs/logo.jpg" alt="INSIDE Logo">
             <div class="container">
             <nav class="nav_margin_left">
@@ -67,6 +67,17 @@
             <ul>
             <li><a href="keybase://public/0xsilene/Public%20Keys/Digital-Signature/05bdb39f781d7eca41c2624557cf5e3fb9ff2fe5.cer">05BDB39F781D7ECA41C2624557CF5E3FB9FF2FE5.cer</a></li>
             </ul>
+                <div class="is_mobile">
+                    <hr>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="resources.html">Resources</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                </div>
         </article>
     </body>
 </html>

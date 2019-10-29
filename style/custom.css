@@ -42,6 +42,13 @@ body {
 }
 /* End Of POSTS */
 
+#is_mobile {
+    display: none;
+}
+#hide_on_mobile {
+    display: inherit;
+}
+
 
 .float_right {
     position: absolute;
