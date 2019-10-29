@@ -8,12 +8,10 @@ function onResize() {
     }
 }
 
-"use strict";
-
 function ifmobile() {
-    let x = window.isMobile = /iphone|ipod|ipad|android|blackberry|opera mini|opera mobi|skyfire|maemo|windows phone|palm|iemobile|symbian|symbianos|fennec/i.test(navigator.userAgent.toLowerCase());
+     x = window.isMobile = /iphone|ipod|ipad|android|blackberry|opera mini|opera mobi|skyfire|maemo|windows phone|palm|iemobile|symbian|symbianos|fennec/i.test(navigator.userAgent.toLowerCase());
     if x {
-        var list = document.getElementById("myList");
+        var list = document.getElementById("hide_on_mobile");
         while (list.hasChildNodes()) {  
             list.removeChild(list.firstChild);
         }
