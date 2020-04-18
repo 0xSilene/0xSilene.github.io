@@ -15,6 +15,6 @@ function ifmobile() {
             list.removeChild(list.firstChild);
         }
         document.getElementById("is_mobile").style.display = "inline";
-        document.getElementById("hide_on_mobile").style.display = "none";
+        //document.getElementById("hide_on_mobile").style.display = "none";
     }
 }
