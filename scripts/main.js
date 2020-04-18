@@ -13,6 +13,7 @@ function onResize() {
 
 function ifmobile() {
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        document.getElementById("hide_on_mobile").style.display = "none";
         var list = document.getElementById("hide_on_mobile");
         while (list.hasChildNodes()) {  
             list.removeChild(list.firstChild);
