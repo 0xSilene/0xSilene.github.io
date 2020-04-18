@@ -1,5 +1,7 @@
 "use strict";
 
+ifmobile();
+
 function onResize() {
     if (screen.availWidth - window.innerWidth === 0) {
         document.getElementById("hide_on_resize").style.display = "inline";
@@ -15,6 +17,6 @@ function ifmobile() {
             list.removeChild(list.firstChild);
         }
         document.getElementById("is_mobile").style.display = "inline";
-        //document.getElementById("hide_on_mobile").style.display = "none";
+        document.getElementById("hide_on_mobile").style.display = "none";
     }
 }
