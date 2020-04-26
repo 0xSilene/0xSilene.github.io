@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="A Site For Security, Cryptography, Programming, Development, Computer Science, and Privacy Related Content run by /u/0xSilene | Joseph Paul Tortorelli">
-        <meta name="keywords" content="0xSilene, Joseph Paul Tortorelli, Joe Paul Tortorelli, 228Labs, Programming, Computer Scinece, crypto, cryptography, security, infosec, netsec, cybersecurity, cyber, blog, github, open-source, projects, libraries, information">
-        <meta name="author" content="Joseph P. Tortorelli (0xSilene)">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>0xSilene</title>
-        <link href="style/github-markdown.css" type="text/css" rel="stylesheet">
-        <link href="style/custom.css" type="text/css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
-        <script src="scripts/main.js"></script>
-        <style>
+    <meta charset="UTF-8">
+    <meta name="description" content="A Site For Security, Cryptography, Programming, Development, Computer Science, and Privacy Related Content run by /u/0xSilene | Joseph Paul Tortorelli">
+    <meta name="keywords" content="0xSilene, Joseph Paul Tortorelli, Joe Paul Tortorelli, 228Labs, Programming, Computer Scinece, crypto, cryptography, security, infosec, netsec, cybersecurity, cyber, blog, github, open-source, projects, libraries, information">
+    <meta name="author" content="Joseph P. Tortorelli (0xSilene)">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>0xSilene</title>
+    <link href="style/github-markdown.css" type="text/css" rel="stylesheet">
+    <link href="style/custom.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <script src="scripts/main.js"></script>
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        @media (max-width: 767px) {
             .markdown-body {
-                box-sizing: border-box;
-                min-width: 200px;
-                max-width: 980px;
-                margin: 0 auto;
-                padding: 45px;
+                padding: 15px;
             }
-            @media (max-width: 767px) {
-                .markdown-body {
-                    padding: 15px;
-                }
-            }
-        </style>
-    </head>
-    <body onresize="onResize();" onload="onResize();ifmobile();">
-        <header id="hide_on_mobile">
-            <img id="logo" src="imgs/logo.jpg" alt="INSIDE Logo">
-            <div class="container">
+        }
+    </style>
+</head>
+
+<body onresize="onResize();" onload="onResize();ifmobile();">
+    <header id="hide_on_mobile">
+        <img id="logo" src="imgs/logo.jpg" alt="INSIDE Logo">
+        <div class="container">
             <nav class="nav_margin_left">
                 <a href="index.html"><button>Home</button></a>
                 <a href="about.html"><button>About</button></a>
@@ -38,24 +40,35 @@
                 <a href="resources.html"><button>Resources</button></a>
                 <a href="contact.html"><button>Contact</button></a>
             </nav>
-                
+
             <span class="float_right" id="hide_on_resize">
-<!--                <a href="https://www.reddit.com/u/0xAtropa"><img class="icon" src="svg/reddit.svg" alt="Reddit Logo"></a>-->
-<!--                <a href="https://twitter.com/0xSilene"><img class="icon" src="svg/twitter_icon.png" alt="Twitter Logo"></a>-->
+                <!--                <a href="https://www.reddit.com/u/0xAtropa"><img class="icon" src="svg/reddit.svg" alt="Reddit Logo"></a>-->
+                <!--                <a href="https://twitter.com/0xSilene"><img class="icon" src="svg/twitter_icon.png" alt="Twitter Logo"></a>-->
                 <!-- <a href=""><img class="icon" src="svg/Instagram_logo.png" alt="Instagram Logo"></a>-->
                 <a href="https://www.linkedin.com/in/joe-tortorelli-05"><img class="icon" src="svg/LinkedIn_logo_initials.png" alt="LinkedIn"></a>
-<!--                <a href="https://keybase.io/0xsilene"><img class="icon" src="svg/icon-keybase-logo-48.png"></a>-->
+                <!--                <a href="https://keybase.io/0xsilene"><img class="icon" src="svg/icon-keybase-logo-48.png"></a>-->
             </span>
+        </div>
+    </header>
+    <article class="markdown-body">
+        <h1>0xSilene | Blog</h1>
+        <div id="posts">
+            <div class="post">
+                <h2 class="post_text">Test | First Post</h2>
+                <p class="post_text">Sorry, its a test post 🙂</p>
             </div>
-        </header>
-        <article class="markdown-body">
-            <h1>0xSilene | Blog</h1>
-            <div id="posts">
+            <a href="blog/1.html">
                 <div class="post">
-                    <h2 class="post_text">Block Lattice</h2>
-                    <p class="post_text">An overview of how a Block Lattice can help the Certificate PKI System.</p>
+                    <h2 class="post_text">Technical | Truly Anonymous Exfiltration With Zcash</h2>
+                    <p class="post_text">With use of MIT's Zcash Blockchain, data can be exfiltrated through the blockchain without ever needing to contact the direct host.</p>
                 </div>
-            </div>
-        </article>
-    </body>
-</html>
+            </a>
+            <a href="blog/2.html">
+                <div class="post">
+                    <h2 class="post_text">Language | Lost in Language</h2>
+                    <p class="post_text">A blog post to show how words shape the world and our perception of the world around us.</p>
+                </div>
+            </a>
+        </div>
+    </article>
+</body></html>
