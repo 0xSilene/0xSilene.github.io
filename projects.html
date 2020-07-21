@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="robots" content="index">
-        <meta name="description" content="A Site For Security, Cryptography, Programming, Development, and Computer Science run by /u/0xSilene | Joseph Paul Tortorelli">
-        <meta name="keywords" content="0xSilene, Joseph Paul Tortorelli, Joe Paul Tortorelli, Joe P. Tortorelli, Joseph Tortorelli, 228Labs, Programming, Computer Science, crypto, cryptography, security, infosec, netsec, cybersecurity, cyber, blog, github, open-source, projects, libraries, information, research, rust, python">
-        <meta name="author" content="Joe P. Tortorelli (0xSilene)">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>0xSilene</title>
-        <link href="style/github-markdown.css" type="text/css" rel="stylesheet">
-        <link href="style/custom.css" type="text/css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
-        <script src="scripts/main.js"></script>
-        
-        <script async defer data-domain="0xsilene.github.io" src="https://plausible.io/js/plausible.js"></script>
-        
-        <style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index">
+    <meta name="description" content="A Site For Security, Cryptography, Programming, Development, and Computer Science run by /u/0xSilene">
+    <meta name="keywords" content="0xSilene, Programming, Computer Science, crypto, cryptography, security, infosec, netsec, cybersecurity, cyber, blog, github, open-source, projects, libraries, information, research, rust, python">
+    <meta name="author" content="0xSilene">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>0xSilene</title>
+    <link href="style/github-markdown.css" type="text/css" rel="stylesheet">
+    <link href="style/custom.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <script src="scripts/main.js"></script>
+
+    <script async defer data-domain="0xsilene.github.io" src="https://plausible.io/js/plausible.js"></script>
+
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        @media (max-width: 767px) {
             .markdown-body {
-                box-sizing: border-box;
-                min-width: 200px;
-                max-width: 980px;
-                margin: 0 auto;
-                padding: 45px;
+                padding: 15px;
             }
-            @media (max-width: 767px) {
-                .markdown-body {
-                    padding: 15px;
-                }
-            }
-        </style>
-    </head>
-    <body onresize="onResize();" onload="onResize();ifmobile();">
-        <header id="hide_on_mobile">
-            <img id="logo" src="imgs/logo.jpg" alt="INSIDE Logo">
-            <div class="container">
+        }
+
+    </style>
+</head>
+
+<body onresize="onResize();" onload="onResize();ifmobile();">
+    <header id="hide_on_mobile">
+        <img id="logo" src="imgs/logo.jpg" alt="INSIDE Logo">
+        <div class="container">
             <nav class="nav_margin_left">
                 <a href="index.html"><button>Home</button></a>
                 <a href="about.html"><button>About</button></a>
@@ -42,35 +46,38 @@
                 <a href="resources.html"><button>Resources</button></a>
                 <a href="contact.html"><button>Contact</button></a>
             </nav>
-                
+
             <span class="float_right" id="hide_on_resize">
-<!--                <a href="https://www.reddit.com/u/0xAtropa"><img class="icon" src="svg/reddit.svg" alt="Reddit Logo"></a>-->
-<!--                <a href="https://twitter.com/0xSilene"><img class="icon" src="svg/twitter_icon.png" alt="Twitter Logo"></a>-->
+                <!--                <a href="https://www.reddit.com/u/0xAtropa"><img class="icon" src="svg/reddit.svg" alt="Reddit Logo"></a>-->
+                <!--                <a href="https://twitter.com/0xSilene"><img class="icon" src="svg/twitter_icon.png" alt="Twitter Logo"></a>-->
                 <!-- <a href=""><img class="icon" src="svg/Instagram_logo.png" alt="Instagram Logo"></a>-->
                 <a href="https://www.linkedin.com/in/joe-tortorelli-05"><img class="icon" src="svg/LinkedIn_logo_initials.png" alt="LinkedIn"></a>
-<!--                <a href="https://keybase.io/0xsilene"><img class="icon" src="svg/icon-keybase-logo-48.png"></a>-->
+                <!--                <a href="https://keybase.io/0xsilene"><img class="icon" src="svg/icon-keybase-logo-48.png"></a>-->
             </span>
-            </div>
-        </header>
-        <article class="markdown-body">
-            <h1>My Projects</h1>
-<!--            <img src="imgs/INSIDE_HOME.jpg">-->
-            <h2>Web Development</h2>
-            <a href="https://0xSilene.github.io">0xSilene.github.io</a>
-            <blockquote>The current site you are browsing, which for the majority will be based around blogging.</blockquote>
-            <h2>Libraries</h2>
-                <a href="https://github.com/0xSilene/ramp-primes">[Rust] ramp-primes</a>
-                <blockquote>A Rust Library For Generating Large Composite and Prime Numbers using a simple interface. For the Primality Test Design, please view the Readme.</blockquote>
-                <a href="https://github.com/0xSilene/Winternitz-OTS">[Rust] Winternitz-OTS</a>
-                <blockquote>A Rust Library For The Cryptographic, Post-Quantum, Winternitz One-Time Signature Digital Signature Scheme. This library uses the hashing function Blake2b by default.</blockquote>
-                <a href="https://github.com/0xSilene/Leslie-Lamport">[Rust] Leslie-Lamport</a>
-                <blockquote>A Rust Crate For The Post-Quantum Digital Signature Scheme Lamport Signatures. These signatures were first created in 1979 by Leslie Lamport and use hashing for the digital signature scheme.</blockquote>
-                <a href="https://github.com/0xSilene/big_unsigned_ints">[Rust] Big-Unsigned-Ints</a>
-                <blockquote>A Rust Library For Converting Fixed-Sized Arrays of Bytes Into Arrays That Can Consist of Up To 2048bits And Still Retain The Fixed-Sized Array Traits of Arrays Length 32 and Under.</blockquote>
-                <a href="https://github.com/0xSilene/b2sum-rust">[Rust] b2sum</a>
-                <blockquote>A Rust Library For Generating Blake2b Checksums for files of arbitary length.</blockquote>
-                <hr>
-                <p>This Page Is Unfinished And Should Be Treated As Such.</p>
-        </article>
-    </body>
+        </div>
+    </header>
+    <article class="markdown-body">
+        <h1>My Projects</h1>
+        <!--            <img src="imgs/INSIDE_HOME.jpg">-->
+        <h2>Web Development</h2>
+        <a href="https://0xSilene.github.io">0xSilene.github.io</a>
+        <blockquote>The current site you are browsing, which for the majority will be based around blogging.</blockquote>
+        <h2>Libraries</h2>
+        <a href="https://github.com/0xSilene/ramp-primes">[Rust] ramp-primes</a>
+        <blockquote>A Rust Library For Generating Large Composite and Prime Numbers using a simple interface. For the Primality Test Design, please view the Readme.</blockquote>
+        <a href="https://github.com/0xSilene/Winternitz-OTS">[Rust] Winternitz-OTS</a>
+        <blockquote>A Rust Library For The Cryptographic, Post-Quantum, Winternitz One-Time Signature Digital Signature Scheme. This library uses the hashing function Blake2b by default.</blockquote>
+        <a href="https://github.com/0xSilene/Leslie-Lamport">[Rust] Leslie-Lamport</a>
+        <blockquote>A Rust Crate For The Post-Quantum Digital Signature Scheme Lamport Signatures. These signatures were first created in 1979 by Leslie Lamport and use hashing for the digital signature scheme.</blockquote>
+        <a href="https://github.com/0xSilene/big_unsigned_ints">[Rust] Big-Unsigned-Ints</a>
+        <blockquote>A Rust Library For Converting Fixed-Sized Arrays of Bytes Into Arrays That Can Consist of Up To 2048bits And Still Retain The Fixed-Sized Array Traits of Arrays Length 32 and Under.</blockquote>
+        <a href="https://github.com/0xSilene/b2sum-rust">[Rust] b2sum</a>
+        <blockquote>A Rust Library For Generating Blake2b Checksums for files of arbitary length.</blockquote>
+        <a href="https://github.com/0xSilene/To-Binary">[Rust] To-Binary</a>
+        <blockquote>A Rust Library For Conversion To Binary Strings.</blockquote>
+        <hr>
+        <p>This Page Is Unfinished And Should Be Treated As Such.</p>
+    </article>
+</body>
+
 </html>
