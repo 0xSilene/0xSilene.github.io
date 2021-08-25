@@ -1,4 +1,4 @@
-# 0xAtropine.github.io
+# AtropineTears.github.io
 
 My Personal Website to list out my blog posts, projects, resources, and other information, as well as to demonstrate my web design skills.
 
