@@ -119,3 +119,16 @@ button:hover {
     background-color: darkred; /* Green */
     color: white;
 }
+
+
+/*For Mobile Header*/
+
+
+#menu-icon {
+
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: #4C8FEC url(../img/menu-icon.png) center;
+
+}
