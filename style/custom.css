@@ -48,6 +48,9 @@ body {
 #hide_on_mobile {
     
 }
+#show_on_mobile {
+    display: none;
+}
 
 
 .float_right {

@@ -14,6 +14,7 @@ function onResize() {
 function ifmobile() {
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         document.getElementById("hide_on_mobile").style.display = "none";
+        document.getElementById("show_on_mobile").style.display = "inline";
         var list = document.getElementById("hide_on_mobile");
         while (list.hasChildNodes()) {  
             list.removeChild(list.firstChild);
