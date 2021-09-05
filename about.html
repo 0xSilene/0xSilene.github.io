@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="robots" content="index">
-        <meta name="description" content="A Site For Security, Cryptography, Programming, Development, and Computer Science">
-        <meta name="keywords" content="0xAtropine, AtropineTearz, AtropineTears, Programming, Computer Science, crypto, cryptography, security, infosec, netsec, cybersecurity, cyber, blog, github, open-source, projects, libraries, information, research, rust, python">
-        <meta name="author" content="AtropineTears">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>AtropineTears</title>
-        <link href="style/github-markdown.css" type="text/css" rel="stylesheet">
-        <link href="style/custom.css" type="text/css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
-        <script src="scripts/main.js"></script>        
-        <style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index">
+    <meta name="description" content="A Site For Security, Cryptography, Programming, Development, and Computer Science">
+    <meta name="keywords" content="0xAtropine, AtropineTearz, AtropineTears, Programming, Computer Science, crypto, cryptography, security, infosec, netsec, cybersecurity, cyber, blog, github, open-source, projects, libraries, information, research, rust, python">
+    <meta name="author" content="AtropineTears">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AtropineTears</title>
+    <link href="style/github-markdown.css" type="text/css" rel="stylesheet">
+    <link href="style/custom.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <script src="scripts/main.js"></script>
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        @media (max-width: 767px) {
             .markdown-body {
-                box-sizing: border-box;
-                min-width: 200px;
-                max-width: 980px;
-                margin: 0 auto;
-                padding: 45px;
+                padding: 15px;
             }
-            @media (max-width: 767px) {
-                .markdown-body {
-                    padding: 15px;
-                }
-            }
-        </style>
-    </head>
-    <body onresize="onResize();" onload="onResize();ifmobile();">
-        <header id="hide_on_mobile">
-            <img id="logo" src="imgs/logo.jpg" alt="INSIDE Logo">
-            <div class="container">
+        }
+
+    </style>
+</head>
+
+<body onresize="onResize();" onload="onResize();ifmobile();">
+    <header id="hide_on_mobile">
+        <img id="logo" src="imgs/logo.jpg" alt="INSIDE Logo">
+        <div class="container">
             <nav class="nav_margin_left">
                 <a href="index.html"><button>Home</button></a>
                 <a href="about.html"><button>About</button></a>
@@ -39,65 +43,66 @@
                 <a href="resources.html"><button>Resources</button></a>
                 <a href="contact.html"><button>Contact</button></a>
             </nav>
-                
+
             <span class="float_right" id="hide_on_resize">
-<a href="https://old.reddit.com/user/atropinetearz"><img class="icon" src="svg/reddit.svg" alt="Reddit Logo"></a>
-<a href="https://twitter.com/AtropineTears"><img class="icon" src="svg/twitter_icon.png" alt="Twitter Logo"></a>
-<a href="https://www.instagram.com/josie1212_1/"><img class="icon" src="svg/Instagram_logo.png" alt="Instagram Logo"></a>
-<a href="https://www.linkedin.com/in/joe-tortorelli-05/"><img class="icon" src="svg/LinkedIn_logo_initials.png" alt="LinkedIn"></a>
-                                <a href="https://keybase.io/atropinetears">
+                <a href="https://old.reddit.com/user/atropinetearz"><img class="icon" src="svg/reddit.svg" alt="Reddit Logo"></a>
+                <a href="https://twitter.com/AtropineTears"><img class="icon" src="svg/twitter_icon.png" alt="Twitter Logo"></a>
+                <a href="https://www.instagram.com/josie1212_1/"><img class="icon" src="svg/Instagram_logo.png" alt="Instagram Logo"></a>
+                <a href="https://www.linkedin.com/in/joe-tortorelli-05/"><img class="icon" src="svg/LinkedIn_logo_initials.png" alt="LinkedIn"></a>
+                <a href="https://keybase.io/atropinetears">
                     <img class="icon" src="svg/icon-keybase-logo-48.png">
                 </a>
             </span>
-            </div>
-        </header>
-        <article class="markdown-body">
-            <h1>About Me</h1>
-<!--            <img src="imgs/INSIDE_HOME.jpg">-->
-            <h2>Introduction</h2>
-            
-            <p>I am a 21 year old junior developer who takes interest in programming, web development, cryptography, cybersecurity, design, typography, and writing. I first took my journey into programming when I was 14, quickly taking an interest to the security side of development. I am still learning myself, and trying to find the most idiomatic ways of development. I am, for the most part, self-taught.</p>
-            
-            <p>As a junior developer, I am outgoing and self-motivated in creating new projects.</p>
-            
-            <h2>Experience</h2>
-            
-            <p>As a developer, I can easily learn most languages pretty quickly as long as I have an internet connection and some free time. Here are some lists of what my independent experience looks like: </p>
-            
-            <h3>Programming Languages</h3>
-                <ul>
-                    <li>Python</li>
-                    <li>Rust</li>
-                    <li>HTML, CSS, and Javascript</li>
-                    <li>Git</li>
-                </ul>
-            <h3>Skills</h3>
-                <ul>
-                    <li>Computer Science</li>
-                    <li>Development</li>
-                    <li>3D Design</li>
-                    <li>Graphic Design</li>
-                    <li>Typography</li>
-                    <li>Writing</li>
-                </ul>
-            <h3>Tools/Software</h3>
-                <ul>
-                    <li>Visual Studio Code</li>
-                    <li>Blender</li>
-                    <li>Adobe Illustrator</li>
-                    <li>Gimp</li>
-                    <li>Brackets</li>
-                    <li>Github Desktop</li>
-                </ul>
-            <h2>Portfolio</h2>
-                <p>See <a href="projects.html">Projects</a> for full list.</p>
-                <ul>
-                    <li><a href="https://github.com/AtropineTears/ramp-primes">[Rust] - ramp-primes</a></li>
-                    <li><a href="https://github.com/AtropineTears/num-primes">[Rust] - num-primes</a></li>
-                    <li><a href="https://github.com/AtropineTears/Winternitz-OTS">[Rust] - Winternitz-OTS</a></li>
-                    <li><a href="https://github.com/AtropineTears/Leslie-Lamport">[Rust] - Leslie-Lamport</a></li>
-                    <li><a href="https://github.com/AtropineTears/b2sum-rs">[Rust] - b2sum-rs</a></li>
-                </ul>
-        </article>
-    </body>
+        </div>
+    </header>
+    <article class="markdown-body">
+        <h1>About Me</h1>
+        <!--            <img src="imgs/INSIDE_HOME.jpg">-->
+        <h2>Introduction</h2>
+
+        <p>I am a 21 year old junior developer who takes interest in programming, web development, cryptography, cybersecurity, design, typography, and writing. I first took my journey into programming when I was 14, quickly taking an interest to the security side of development. I am still learning myself, and trying to find the most idiomatic ways of development. I am, for the most part, self-taught.</p>
+
+        <p>As a junior developer, I am outgoing and self-motivated in creating new projects.</p>
+
+        <h2>Experience</h2>
+
+        <p>As a developer, I can easily learn most languages pretty quickly as long as I have an internet connection and some free time. Here are some lists of what my independent experience looks like: </p>
+
+        <h3>Programming Languages</h3>
+        <ul>
+            <li>Python</li>
+            <li>Rust</li>
+            <li>HTML, CSS, and Javascript</li>
+            <li>Git</li>
+        </ul>
+        <h3>Skills</h3>
+        <ul>
+            <li>Computer Science</li>
+            <li>Development</li>
+            <li>3D Design</li>
+            <li>Graphic Design</li>
+            <li>Typography</li>
+            <li>Writing</li>
+        </ul>
+        <h3>Tools/Software</h3>
+        <ul>
+            <li>Visual Studio Code</li>
+            <li>Blender</li>
+            <li>Adobe Illustrator</li>
+            <li>Gimp</li>
+            <li>Brackets</li>
+            <li>Github Desktop</li>
+        </ul>
+        <h2>Portfolio</h2>
+        <p>See <a href="projects.html">Projects</a> for full list.</p>
+        <ul>
+            <li><a href="https://github.com/AtropineTears/ramp-primes">[Rust] - ramp-primes</a></li>
+            <li><a href="https://github.com/AtropineTears/num-primes">[Rust] - num-primes</a></li>
+            <li><a href="https://github.com/AtropineTears/Winternitz-OTS">[Rust] - Winternitz-OTS</a></li>
+            <li><a href="https://github.com/AtropineTears/Leslie-Lamport">[Rust] - Leslie-Lamport</a></li>
+            <li><a href="https://github.com/AtropineTears/b2sum-rs">[Rust] - b2sum-rs</a></li>
+        </ul>
+    </article>
+</body>
+
 </html>
